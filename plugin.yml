@@ -1,0 +1,23 @@
+name: SV
+main: -
+version: 1.0.0
+api: 3.0.0-ALPHA7
+author:
+- ggomez
+description: "An attempt at making a more functional Vanish plugin!"
+
+permissions:
+  sv:
+    default: OP
+    description: "Super Admin Permission"
+    children:
+      sv.broadcast:
+        default: OP
+        description: "Allows the player to /vlogin and /vlogout"
+      sv.command:
+        default: OP
+        description: "Allows the the player to use /sv and /sv {player}"
+        children:
+          sv.command.use
+            default: OP
+            description: "Allows the player to use only /sv NOT /sv {player}"
