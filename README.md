@@ -1,4 +1,4 @@
-# Super Vanish
+# Super Vanish - WIP
 
 Super Vanish is my attempt at making a more effective vanish plugin.
 (Attempt of making https://github.com/MyzelYam/SuperVanish into a PMMP Plugin)
