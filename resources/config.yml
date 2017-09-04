@@ -1,0 +1,17 @@
+# SuperVanish Configurations
+
+# DO NOT EDIT!
+version: "1.0.0"
+
+#set to false to turn off plugin
+PluginOn: true
+
+# Messages used in plugin
+# You can use {player} to get the players' ingame name
+# To get colored text use &# Example: "&6Hello"
+messages:
+  FakeLogin: "{player} joined the game"
+  FakeQuit: "{player} left the game"
+
+# Set to false to turn off the automatic display of the fake join/leave message when player runs the command
+AutoBroadcast: true
